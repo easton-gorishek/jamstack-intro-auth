@@ -16,6 +16,7 @@
     "yarn": "^1.22.4"
   },
   "scripts": {
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "build": "gatsby build"
   }
 }
