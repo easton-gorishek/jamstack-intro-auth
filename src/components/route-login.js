@@ -7,6 +7,7 @@ const RouteLogin = ({ showModal }) => {
 
   if (identity && identity.isLoggedIn) {
     navigate("/dashboard/secret", { replace: true });
+    return null;
   }
 
   return (
